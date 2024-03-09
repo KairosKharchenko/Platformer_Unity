@@ -15,7 +15,7 @@ D:/Users/Admin/Desktop/unity projects/Platformer Rep/Platformer_Unity/My project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50329
+50605
 Successfully changed project path to: D:/Users/Admin/Desktop/unity projects/Platformer Rep/Platformer_Unity/My project
 D:/Users/Admin/Desktop/unity projects/Platformer Rep/Platformer_Unity/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ D:/Users/Admin/Desktop/unity projects/Platformer Rep/Platformer_Unity/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14936] Host "[IP] 192.168.1.203 [Port] 0 [Flags] 2 [Guid] 150005351 [EditorId] 150005351 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0TP2OUV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7004] Host "[IP] 192.168.1.203 [Port] 0 [Flags] 2 [Guid] 2412647904 [EditorId] 2412647904 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0TP2OUV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14936] Host "[IP] 192.168.1.203 [Port] 0 [Flags] 2 [Guid] 150005351 [EditorId] 150005351 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0TP2OUV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7004] Host "[IP] 192.168.1.203 [Port] 0 [Flags] 2 [Guid] 2412647904 [EditorId] 2412647904 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0TP2OUV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 90.92 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 96.37 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -68,40 +68,40 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004954 seconds.
+Registered in 0.006573 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 265 ms
-Refreshing native plugins compatible for Editor in 86.51 ms, found 4 plugins.
+Android Extension - Scanning For ADB Devices 352 ms
+Refreshing native plugins compatible for Editor in 92.28 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.017 seconds
+- Completed reload, in  1.340 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1018ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (1341ms)
+		BeginReloadAssembly (215ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (805ms)
-			LoadAssemblies (110ms)
+		EndReloadAssembly (943ms)
+			LoadAssemblies (213ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (116ms)
+			SetupTypeCache (141ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (615ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (719ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (380ms)
+				InitializePlatformSupportModulesInManaged (472ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (87ms)
+				RefreshPlugins (92ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (92ms)
+				ProcessInitializeOnLoadAttributes (99ms)
 				ProcessInitializeOnLoadMethodAttributes (54ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -109,11 +109,11 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004818 seconds.
+Registered in 0.005247 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 86.97 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 158.94 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -136,43 +136,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.009 seconds
+- Completed reload, in  2.576 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2010ms)
+	ReloadAssembly (2577ms)
 		BeginReloadAssembly (145ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1748ms)
-			LoadAssemblies (115ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (2319ms)
+			LoadAssemblies (116ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (260ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (1275ms)
+			SetupTypeCache (308ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (140ms)
+			SetupLoadedEditorAssemblies (1665ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (87ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (1014ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				InitializePlatformSupportModulesInManaged (53ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (159ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (1257ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
+Refreshing native plugins compatible for Editor in 1.87 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3797 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (46.8 KB). Loaded Objects now: 4259.
-Memory consumption went from 150.4 MB to 150.3 MB.
-Total: 12.220500 ms (FindLiveObjects: 0.316900 ms CreateObjectMapping: 0.300200 ms MarkObjects: 11.514500 ms  DeleteObjects: 0.087600 ms)
+Unloading 35 unused Assets / (46.3 KB). Loaded Objects now: 4259.
+Memory consumption went from 150.3 MB to 150.3 MB.
+Total: 17.443700 ms (FindLiveObjects: 0.381200 ms CreateObjectMapping: 0.323300 ms MarkObjects: 16.631800 ms  DeleteObjects: 0.105900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -187,435 +187,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 271.261536 seconds.
-  path: Assets/Sprites/coin.png
-  artifactKey: Guid(92d091abaad8f04448c59d8a342fb659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/coin.png using Guid(92d091abaad8f04448c59d8a342fb659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a794ad9af49fa643781c85d282dfb8e') in 0.173760 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 905.163815 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_1.asset
-  artifactKey: Guid(7757d978ad70aa4479b30fb5e3288835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_1.asset using Guid(7757d978ad70aa4479b30fb5e3288835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95305e22a2e69fc56a15293a5b1cb0ef') in 0.154100 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_2.asset
-  artifactKey: Guid(af54a3c277a71a545aebee439a570c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_2.asset using Guid(af54a3c277a71a545aebee439a570c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2a5cf884e68fb8c5527b5ab1e8b93b') in 0.056916 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.065200 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_4.asset
-  artifactKey: Guid(12da83266b72b474aa71ee68f5502ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_4.asset using Guid(12da83266b72b474aa71ee68f5502ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7c591da6d83902228a37cb2a7ef678') in 0.091862 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.006521 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_5.asset
-  artifactKey: Guid(152d929d0fa30f244a45fafc3bd951ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_5.asset using Guid(152d929d0fa30f244a45fafc3bd951ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1f822317cee9ccdfe4bdd646d5f506') in 0.088765 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000803 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_8.asset
-  artifactKey: Guid(5c97733cb899df045a2577f06cc81c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_8.asset using Guid(5c97733cb899df045a2577f06cc81c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9eb5231844908757dd54f4bb8983705') in 0.168942 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.595393 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_10.asset
-  artifactKey: Guid(00042a0ebbd40f041a13f84ecc53c8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_10.asset using Guid(00042a0ebbd40f041a13f84ecc53c8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8bfc4653beca242db5b23f0e60c86f') in 0.133077 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.001734 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_13.asset
-  artifactKey: Guid(de192b34345867e47a1a80b74aff8133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_13.asset using Guid(de192b34345867e47a1a80b74aff8133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2f9abb6d34a9e1f16d30dd07bd6df2') in 0.122997 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_17.asset
-  artifactKey: Guid(9a78a1e808f5234499fcfccc7e8c5c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_17.asset using Guid(9a78a1e808f5234499fcfccc7e8c5c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd293add2bf66cd373470e61398af1556') in 0.203447 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000588 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_12.asset
-  artifactKey: Guid(798e2cda6b0ab5f4d9ff984b610e63da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_12.asset using Guid(798e2cda6b0ab5f4d9ff984b610e63da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b61071f95b14e0670232a554138cee') in 0.114072 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.043263 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_19.asset
-  artifactKey: Guid(b1e4a38e8f7067a4e8076ae9850ab9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_19.asset using Guid(b1e4a38e8f7067a4e8076ae9850ab9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a57ba0bb283121932eb0e1da4860c77') in 0.080882 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.003107 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_20.asset
-  artifactKey: Guid(430a5435cb3e18c489e33a0b9c499d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_20.asset using Guid(430a5435cb3e18c489e33a0b9c499d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd06cdd50613c85ecddb9786472c190') in 0.115814 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_22.asset
-  artifactKey: Guid(b107c1de70c056d47bc0afdaf3197981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_22.asset using Guid(b107c1de70c056d47bc0afdaf3197981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6597440d0507afc62a351f34b3c26dc9') in 0.072781 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.639753 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_25.asset
-  artifactKey: Guid(fded2129b171f4e448b0215e33e3f18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_25.asset using Guid(fded2129b171f4e448b0215e33e3f18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf454af4e6df2d06a9a42a7bc92d54f') in 0.143260 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_31.asset
-  artifactKey: Guid(89c589eeaca78ec48bebdeaedb24a4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_31.asset using Guid(89c589eeaca78ec48bebdeaedb24a4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70674d3ecbe197154e327b747b560c1') in 0.128404 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_29.asset
-  artifactKey: Guid(044f28913a34c964c915dca1d9d15c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_29.asset using Guid(044f28913a34c964c915dca1d9d15c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52b4cc944ca1b7687601f0ffca4b0fa') in 0.076861 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_27.asset
-  artifactKey: Guid(5b10335986e1095459b793a757dbc935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_27.asset using Guid(5b10335986e1095459b793a757dbc935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4a3e5f0019058c021186641931b756') in 0.114667 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_43.asset
-  artifactKey: Guid(175271c0a13acbf4d958138fb452f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_43.asset using Guid(175271c0a13acbf4d958138fb452f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10cb724d5f6e6e9b0fa0449b826a1ff9') in 0.070935 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_30.asset
-  artifactKey: Guid(e17b2f4a65de2ea4c850a8a3c540fc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_30.asset using Guid(e17b2f4a65de2ea4c850a8a3c540fc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e9ae7f0f4a962fcca4348b9da6fc07') in 0.079504 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_38.asset
-  artifactKey: Guid(65ca24b743a925d45ae6d81e1f824e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_38.asset using Guid(65ca24b743a925d45ae6d81e1f824e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e8e8aa057b55569881e5ff676c6811') in 0.067170 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_45.asset
-  artifactKey: Guid(e9431ab72c4e66647ad1d4e33eee812e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_45.asset using Guid(e9431ab72c4e66647ad1d4e33eee812e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57a0664c8ab16139c729565d01ccc13') in 0.053928 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_47.asset
-  artifactKey: Guid(553ffefecb133794399c2976a7c74cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_47.asset using Guid(553ffefecb133794399c2976a7c74cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf6fd1393eaee0e5f5e6f7ff2742ed4') in 0.065843 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_56.asset
-  artifactKey: Guid(2f8012700470d664589922b3cf9ad32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_56.asset using Guid(2f8012700470d664589922b3cf9ad32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6710267e76c19d0a01c7a1c97c99cc') in 0.062942 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_54.asset
-  artifactKey: Guid(498aeab288adb93449b16198b3d24d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_54.asset using Guid(498aeab288adb93449b16198b3d24d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4711e86347975f98f33a093add8fe7') in 0.058082 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_49.asset
-  artifactKey: Guid(0dddb75640d78974db2ab9fd7670a6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_49.asset using Guid(0dddb75640d78974db2ab9fd7670a6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea91b5e2ac9304acbfd6ff2249e31ef') in 0.063332 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_37.asset
-  artifactKey: Guid(c902245516a64874f9e7779f567ec98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_37.asset using Guid(c902245516a64874f9e7779f567ec98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9aa8eda85818597215ce234b44b857') in 0.052197 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_61.asset
-  artifactKey: Guid(1d1662971ca1fcd47b5376e7bee790cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_61.asset using Guid(1d1662971ca1fcd47b5376e7bee790cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9815b8ae2e7caccc864a90d892001869') in 0.064056 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_58.asset
-  artifactKey: Guid(f7b0a49e1cbee134ba1ad12c772ce91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_58.asset using Guid(f7b0a49e1cbee134ba1ad12c772ce91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ce3bb2fc0af41dbf22a79a1ea90aeb') in 0.077780 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_63.asset
-  artifactKey: Guid(c75538c05556d2b429ff5c7da5ee09ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_63.asset using Guid(c75538c05556d2b429ff5c7da5ee09ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9acd0ef2d3bfa64b7b50abe6fa294ec3') in 0.127555 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_65.asset
-  artifactKey: Guid(d14c05d4a77f8a0449d074b0d09d3b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_65.asset using Guid(d14c05d4a77f8a0449d074b0d09d3b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76417902130948f4a5cdcbaea2874c03') in 0.220176 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_74.asset
-  artifactKey: Guid(bc2e1607f3aef0542a69167c7d562bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_74.asset using Guid(bc2e1607f3aef0542a69167c7d562bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd51c0efce98eeb6a5692ab9fd5b06d') in 0.103152 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_77.asset
-  artifactKey: Guid(fbde631a3bf37784a82cdc1efdbcd7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_77.asset using Guid(fbde631a3bf37784a82cdc1efdbcd7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61b1288ed0533357bfbd0d67410fb50') in 0.069587 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_85.asset
-  artifactKey: Guid(669d495a60759f143b31641115f63fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_85.asset using Guid(669d495a60759f143b31641115f63fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33de9802cddab4a5ba5fdc05aabe5df') in 0.062677 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_86.asset
-  artifactKey: Guid(2017c775cbae9f84bbc5ad6d597cb96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_86.asset using Guid(2017c775cbae9f84bbc5ad6d597cb96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b405301ee8bb6dbdb4264973a3b5e0f4') in 0.040419 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_88.asset
-  artifactKey: Guid(988d6611fe6e10a4ca7f529265c571c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_88.asset using Guid(988d6611fe6e10a4ca7f529265c571c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a566b94ee475a2619dbe870442ec464f') in 0.044696 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_81.asset
-  artifactKey: Guid(ebeb90377ac62154c8ed92f885bcf805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_81.asset using Guid(ebeb90377ac62154c8ed92f885bcf805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd82f1d868e9faea5cfb30b2202a20b1') in 0.067016 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_95.asset
-  artifactKey: Guid(a2b545db9310d0c49aa569e349696c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_95.asset using Guid(a2b545db9310d0c49aa569e349696c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396f994332236cc8cedff1f718397342') in 0.044527 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_92.asset
-  artifactKey: Guid(04c72ac57a4228c45b750ac4ba9f6383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_92.asset using Guid(04c72ac57a4228c45b750ac4ba9f6383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a782a76b2025b5806e14a1f65bdc7eb7') in 0.051486 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_97.asset
-  artifactKey: Guid(1f1c2a4e025223c42bea66d7bc669265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_97.asset using Guid(1f1c2a4e025223c42bea66d7bc669265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a794386f3499d8be36c5f708a5ca9352') in 0.051372 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_99.asset
-  artifactKey: Guid(6f7f87de7545ad34bb5bc722724b164a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_99.asset using Guid(6f7f87de7545ad34bb5bc722724b164a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2b2661d916fedb3ebbc5d958650dbe') in 0.059927 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_57.asset
-  artifactKey: Guid(060da689a19c0ac4685b82e298e046f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_57.asset using Guid(060da689a19c0ac4685b82e298e046f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5727ff6de6ea7756855da948152d18') in 0.042369 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_64.asset
-  artifactKey: Guid(6f65b1db308fdc143a7129bdf92f8b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_64.asset using Guid(6f65b1db308fdc143a7129bdf92f8b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e154f776978f243ad0f9b67cce767f') in 0.047825 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_62.asset
-  artifactKey: Guid(7dea0521711b21045971889448a63a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_62.asset using Guid(7dea0521711b21045971889448a63a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf65f83c7dfed10d24cb2ed21844d64') in 0.037082 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_60.asset
-  artifactKey: Guid(d9fee14c87af82c4f8e5c05bffb39371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_60.asset using Guid(d9fee14c87af82c4f8e5c05bffb39371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca257ad6f9646b3e9f484cabc29dd28d') in 0.033228 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_104.asset
-  artifactKey: Guid(7a60dd6dbfc1cf041b862898f22bd0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_104.asset using Guid(7a60dd6dbfc1cf041b862898f22bd0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03994f222225c8618f973752be4a85d1') in 0.036968 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_100.asset
-  artifactKey: Guid(a21caa03dc54d824da9f5105ce629934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_100.asset using Guid(a21caa03dc54d824da9f5105ce629934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4840571c5257ec6bd49c1d8748538e') in 0.037138 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_101.asset
-  artifactKey: Guid(1ee3cdaac924f69429908eebc88ae772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_101.asset using Guid(1ee3cdaac924f69429908eebc88ae772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0095ffc0c59f8234462048d509b9f841') in 0.040411 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_76.asset
-  artifactKey: Guid(47c4dc2baf9e84a498d721fb23502479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_76.asset using Guid(47c4dc2baf9e84a498d721fb23502479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cba961888ad32add5b87f5cc2bc7403') in 0.045278 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_71.asset
-  artifactKey: Guid(6a79414ab76b3df47ae4ec6697698e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_71.asset using Guid(6a79414ab76b3df47ae4ec6697698e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cfb784bf5501e22a3dc7f458b2d6dae') in 0.048536 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_73.asset
-  artifactKey: Guid(f02bd1be3fa732e47b47084170a57551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_73.asset using Guid(f02bd1be3fa732e47b47084170a57551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983c5dcf8ff193a9a7e1a70cfe930333') in 0.089506 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_96.asset
-  artifactKey: Guid(e8066f2d422549d4d94a765fa66e1f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_96.asset using Guid(e8066f2d422549d4d94a765fa66e1f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ec5c6742659e5912bed46d0fb38480') in 0.059991 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_41.asset
-  artifactKey: Guid(7991b650594543845898298f01544d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_41.asset using Guid(7991b650594543845898298f01544d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d344850a8d72e15fbe420f0b65b1b4') in 0.036852 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.407495 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_106.asset
-  artifactKey: Guid(9950311671568d34ca0600bca4bc6897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_106.asset using Guid(9950311671568d34ca0600bca4bc6897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d5d5fc1e06a5abe21c5af6bfb3a2d9') in 0.069612 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Paletts/PatformTiles/Ground_SpriteSheet_107.asset
-  artifactKey: Guid(44488f9c791ee204481d201a4d514699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Paletts/PatformTiles/Ground_SpriteSheet_107.asset using Guid(44488f9c791ee204481d201a4d514699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03139fca2b4b5c90240433f78f2955d') in 0.080905 seconds 
-Number of asset objects unloaded after import = 3
