@@ -41,7 +41,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3188003019304548829, guid: 603f6d6027c18a94e98607f40ea4a924, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -15.279873
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3188003019304548829, guid: 603f6d6027c18a94e98607f40ea4a924, type: 3}
       propertyPath: m_LocalRotation.w
@@ -85,19 +85,25 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 6bfbb95bc83608e4997658d2349f914f, type: 2}
     - target: {fileID: 6130753959396005420, guid: 603f6d6027c18a94e98607f40ea4a924, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.6
+      value: 0.555
       objectReference: {fileID: 0}
     - target: {fileID: 6130753959396005420, guid: 603f6d6027c18a94e98607f40ea4a924, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.95
+      value: -0.683
+      objectReference: {fileID: 0}
+    - target: {fileID: 6963663711935750488, guid: 603f6d6027c18a94e98607f40ea4a924, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Speed","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Direction","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 7640952834633364959, guid: 603f6d6027c18a94e98607f40ea4a924, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.16
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7640952834633364959, guid: 603f6d6027c18a94e98607f40ea4a924, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.53
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 603f6d6027c18a94e98607f40ea4a924, type: 3}
@@ -116,7 +122,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

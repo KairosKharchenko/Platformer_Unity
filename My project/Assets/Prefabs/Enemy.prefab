@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2597332190672941010}
   - component: {fileID: 6963663711935750488}
   - component: {fileID: 4996893700301696734}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 8002545098017855040}
   - component: {fileID: 8719921134984619048}
   - component: {fileID: 7041614703466629858}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GroundChecker
   m_TagString: Untagged
   m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}

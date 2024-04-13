@@ -11,6 +11,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost
       objectReference: {fileID: 0}
+    - target: {fileID: 2597332190672941010, guid: 603f6d6027c18a94e98607f40ea4a924, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597332190672941010, guid: 603f6d6027c18a94e98607f40ea4a924, type: 3}
+      propertyPath: m_Simulated
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597332190672941010, guid: 603f6d6027c18a94e98607f40ea4a924, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2798863573330960400, guid: 603f6d6027c18a94e98607f40ea4a924, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -33,7 +45,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3188003019304548829, guid: 603f6d6027c18a94e98607f40ea4a924, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -15.279873
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3188003019304548829, guid: 603f6d6027c18a94e98607f40ea4a924, type: 3}
       propertyPath: m_LocalRotation.w
@@ -98,9 +110,51 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.04514885, y: 0}
   m_Size: {x: 0.70267105, y: 1.171875}
+  m_Direction: 0
+--- !u!95 &8262427533920209615
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332998333168396581}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &8272752095877917827 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2092409086003516618, guid: 603f6d6027c18a94e98607f40ea4a924, type: 3}
+  m_PrefabInstance: {fileID: 8054409521115822153}
+  m_PrefabAsset: {fileID: 0}
+--- !u!70 &3778954149925677344
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8272752095877917827}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.14447713, y: 0.020349145}
+  m_Size: {x: 0.6994195, y: 1.1709311}
   m_Direction: 0
